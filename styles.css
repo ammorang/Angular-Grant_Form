@@ -1,0 +1,121 @@
+a {
+  text-decoration: none;
+  font-family: "Monospace", sans-serif;
+  background-color: rgb(69, 138, 241);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+a:visited {
+  color: white;
+}
+
+.editform {
+  margin: 20px auto;
+  padding: 10px;
+  height: 500px;
+  width: 350px;
+  color: grey;
+  font-family: "Monospace", sans-serif;
+  border: 2px solid lightgray;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  width: 300px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  border-color: lightgrey;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.info {
+  color:  rgb(75, 71, 71);
+  padding: 20px;
+  font-size: 18px;
+  margin-left: 0px;
+}
+
+label {
+  color: rgb(69, 138, 241);
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.updatebtn {
+  width: 310px;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: rgb(75, 71, 71);
+  color: white;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Grant Profile */
+
+.profile {
+  height: 400px;
+  width: 325px;
+  margin: 0 auto;
+  color: grey;
+  font-family: "Monospace", sans-serif;
+  border: 2px solid lightgray;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.editbtn {
+  width: 280px;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: rgb(75, 71, 71);
+  color: white;
+  margin: 20px auto;
+  outline: none;
+  text-align: center;
+}
+
+.grantpic {
+  background-image: url("grant.png");
+  background-repeat: no-repeat;
+  background-color: rgb(69, 138, 241);
+  background-position: center;
+  height: 200px;
+  width: 325px;
+  margin: 0 auto;
+}
+
+.gname {
+  font-size: 24px;
+  font-family: serif;
+  color: rgb(75, 71, 71);
+  font-weight: 800;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.gcontact {
+  font-size: 14px;
+  color: lightgray;
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.gbio {
+  font-size: 14px;
+  color: rgb(75, 71, 71);
+  margin-left: 20px;
+  margin-top: 5px;
+}
