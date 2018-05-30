@@ -10,8 +10,7 @@ const editProfile = {
     <input type="text" ng-model="$ctrl.user.contactInfo">
     <label>Bio</label>
     <textarea type="text" rows="15" cols="20" ng-model="$ctrl.user.bio"></textarea>
-    <a href="#!/profilePage" class="updatebtn">Update</a>
-
+    <button class="updatebtn">Update</button>
   </form>
   `,
   controller: ["ProfileService", function(ProfileService) {

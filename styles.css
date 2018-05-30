@@ -54,6 +54,7 @@ label {
 
 .updatebtn {
   width: 310px;
+  height: 60px;
   font-size: 16px;
   border-radius: 20px;
   background-color: rgb(75, 71, 71);
