@@ -61,6 +61,7 @@ label {
   color: white;
   margin: 20px auto;
   text-align: center;
+  outline: none;
 }
 
 /* Grant Profile */
@@ -89,10 +90,10 @@ label {
 }
 
 .grantpic {
-  background-image: url("grant.png");
-  background-repeat: no-repeat;
-  background-color: rgb(69, 138, 241);
+  background: url("grant.png") no-repeat center, linear-gradient( #458af1 50%, #458af1 50%);
   background-position: center;
+  border-top-right-radius: 12px; 
+  border-top-left-radius: 12px;
   height: 200px;
   width: 325px;
   margin: 0 auto;

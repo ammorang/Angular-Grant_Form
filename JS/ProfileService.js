@@ -6,16 +6,16 @@ function ProfileService($location) {
     contactInfo: "grant@grandcircus.co",
     bio: "I am pretty cool. I do a great job. I like to play Tetris. I am pretty ok at AngularJS."
   };
-  const getUserProfile = (user) => {
+  const setUserProfile = (user) => {
     userProfile = user;
     $location.path("/profilePage");
   };
-  const setUserProfile = () => {
+  const getUserProfile = () => {
     return userProfile
   }
   return {
-    getUserProfile,
-    setUserProfile
+    setUserProfile,
+    getUserProfile
   };
 }
 

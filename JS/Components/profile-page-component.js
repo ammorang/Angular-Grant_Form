@@ -12,7 +12,7 @@ const profilePage = {
   `,
   controller: ["ProfileService", function(ProfileService) {
     const vm = this;
-    vm.userData = ProfileService.setUserProfile();
+    vm.userData = ProfileService.getUserProfile();
   }]
 };
 

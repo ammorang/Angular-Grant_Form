@@ -16,7 +16,7 @@ const editProfile = {
   controller: ["ProfileService", function(ProfileService) {
     const vm = this;
     vm.update = (user) => {
-      ProfileService.getUserProfile(user);
+      ProfileService.setUserProfile(user);
     };
   }]
 };

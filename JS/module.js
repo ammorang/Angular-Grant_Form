@@ -9,5 +9,6 @@ angular
       })
       .when("/profilePage", {
         template: "<profile-page></profile-page>"
-      });
+      })
+      .otherwise("/profilePage");
   });
